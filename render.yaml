@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: king-lord-1-2
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    rootDir: backend
